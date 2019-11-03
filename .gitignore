@@ -1,0 +1,8 @@
+# About IntelliJ
+*.iml
+/.idea/
+/out/
+.idea
+
+# Complied class files
+*.class
