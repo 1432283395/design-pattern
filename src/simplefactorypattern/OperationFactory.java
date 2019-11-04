@@ -10,7 +10,6 @@ package simplefactorypattern;
 public class OperationFactory {
     /**
      * 生产运算对象
-     *
      * @param operate 运算类型
      * @return 运算对象
      */
