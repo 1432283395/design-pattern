@@ -1,11 +1,10 @@
 package simplefactorypattern;
 
 /**
- * @ClassName OperationFactory
- * @Description 简单运算工厂类
- * @Author yaobo
- * @Date 2019/11/3 23:29
- * @Version 1.0
+ * @author yaobo
+ * @version 1.0
+ * @date 2019/11/3 23:29
+ * @description 简单运算工厂类
  */
 public class OperationFactory {
     /**
@@ -13,7 +12,7 @@ public class OperationFactory {
      * @param operate 运算类型
      * @return 运算对象
      */
-    public static Operation createOperate(String operate) {
+    private static Operation createOperate(String operate) {
         Operation operation;
         switch (operate) {
             case "+":
@@ -30,9 +29,16 @@ public class OperationFactory {
     }
 
     public static void main(String[] args) {
-        Operation operation = OperationFactory.createOperate("+");
+        Operation operation;
+
+        operation = OperationFactory.createOperate("+");
         operation.setNumber1(1);
         operation.setNumber2(2);
+        System.out.print("运算结果：" + operation.getResult());
+
+        operation = OperationFactory.createOperate("-");
+        operation.setNumber1(2);
+        operation.setNumber2(1);
         System.out.print("运算结果：" + operation.getResult());
     }
 }

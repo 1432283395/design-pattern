@@ -1,11 +1,10 @@
 package simplefactorypattern;
 
 /**
- * @ClassName OperationAdd
- * @Description 加法运算类
- * @Author yaobo
- * @Date 2019/11/3 23:39
- * @Version 1.0
+ * @author yaobo
+ * @version 1.0
+ * @date 2019/11/3 23:39
+ * @description 加法运算类
  */
 public class OperationAdd extends Operation {
     @Override
