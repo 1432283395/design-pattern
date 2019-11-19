@@ -14,7 +14,7 @@ public class Operation {
         return number1;
     }
 
-    void setNumber1(double number1) {
+    public void setNumber1(double number1) {
         this.number1 = number1;
     }
 
@@ -22,7 +22,7 @@ public class Operation {
         return number2;
     }
 
-    void setNumber2(double number2) {
+    public void setNumber2(double number2) {
         this.number2 = number2;
     }
 
