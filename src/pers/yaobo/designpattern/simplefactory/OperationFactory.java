@@ -1,4 +1,4 @@
-package simplefactorypattern;
+package pers.yaobo.designpattern.simplefactory;
 
 /**
  * @author yaobo

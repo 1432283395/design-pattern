@@ -1,4 +1,4 @@
-package proxypattern;
+package pers.yaobo.designpattern.proxy;
 
 /**
  * @author yaobo

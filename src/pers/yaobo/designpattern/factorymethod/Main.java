@@ -1,6 +1,6 @@
-package factorymethodpattern;
+package pers.yaobo.designpattern.factorymethod;
 
-import simplefactorypattern.Operation;
+import pers.yaobo.designpattern.simplefactory.Operation;
 
 /**
  * @author yaobo

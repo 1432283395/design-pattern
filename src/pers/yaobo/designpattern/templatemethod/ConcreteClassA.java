@@ -4,7 +4,7 @@ package pers.yaobo.designpattern.templatemethod;
  * @author yaobo
  * @version 1.0
  * @date 2019/11/19 14:05
- * @description
+ * @description 具体实现类A
  */
 public class ConcreteClassA extends AbstractTemplate{
     @Override

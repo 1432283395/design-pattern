@@ -1,4 +1,4 @@
-package strategypattern;
+package pers.yaobo.designpattern.strategy;
 
 /**
  * @author yaobo

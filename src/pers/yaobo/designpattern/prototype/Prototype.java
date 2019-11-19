@@ -1,4 +1,4 @@
-package prototypepattern;
+package pers.yaobo.designpattern.prototype;
 
 /**
  * @author yaobo

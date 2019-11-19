@@ -1,4 +1,4 @@
-package decoratorpattern;
+package pers.yaobo.designpattern.decorator;
 
 /**
  * @author yaobo
