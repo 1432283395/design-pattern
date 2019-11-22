@@ -9,10 +9,11 @@ package pers.yaobo.designpattern.simplefactory;
 public class OperationFactory {
     /**
      * 生产运算对象
+     *
      * @param operate 运算类型
      * @return 运算对象
      */
-    private static Operation createOperate(String operate) {
+    public static Operation createOperate(String operate) {
         Operation operation;
         switch (operate) {
             case "+":
@@ -26,19 +27,5 @@ public class OperationFactory {
                 break;
         }
         return operation;
-    }
-
-    public static void main(String[] args) {
-        Operation operation;
-
-        operation = OperationFactory.createOperate("+");
-        operation.setNumber1(1);
-        operation.setNumber2(2);
-        System.out.print("运算结果：" + operation.getResult());
-
-        operation = OperationFactory.createOperate("-");
-        operation.setNumber1(2);
-        operation.setNumber2(1);
-        System.out.print("运算结果：" + operation.getResult());
     }
 }
