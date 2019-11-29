@@ -4,18 +4,18 @@ package pers.yaobo.designpattern.simplefactory;
  * @author yaobo
  * @version 1.0
  * @date 2019/11/3 23:29
- * @description 简单运算工厂类
+ * @description The class is a factory of create operate object.
  */
 public class OperationFactory {
     /**
-     * 生产运算对象
+     * Create operate object
      *
-     * @param operate 运算类型
-     * @return 运算对象
+     * @param type the index of operate
+     * @return a operate object
      */
-    public static Operation createOperate(String operate) {
+    public static Operation createOperate(String type) {
         Operation operation;
-        switch (operate) {
+        switch (type) {
             case "+":
                 operation = new OperationAdd();
                 break;

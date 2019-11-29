@@ -4,7 +4,7 @@ package pers.yaobo.designpattern.simplefactory;
  * @author yaobo
  * @version 1.0
  * @date 2019/11/3 23:34
- * @description 运算类
+ * @description Parent class of operation
  */
 public class Operation {
     private double number1 = 0;
