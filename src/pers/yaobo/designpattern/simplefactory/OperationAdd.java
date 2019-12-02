@@ -4,13 +4,13 @@ package pers.yaobo.designpattern.simplefactory;
  * @author yaobo
  * @version 1.0
  * @date 2019/11/3 23:39
- * @description The class represents addition.
+ * @description 加法类
  */
 public class OperationAdd extends Operation {
     /**
-     * Returns the result of addition
+     * 返回加法运算结果
      *
-     * @return the result of addition
+     * @return 加法运算结果
      */
     @Override
     public double getResult() {

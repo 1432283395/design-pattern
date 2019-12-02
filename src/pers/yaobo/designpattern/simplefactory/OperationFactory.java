@@ -8,10 +8,10 @@ package pers.yaobo.designpattern.simplefactory;
  */
 public class OperationFactory {
     /**
-     * Create operate object
+     * 创建具体的Operation对象
      *
-     * @param type the index of operate
-     * @return a operate object
+     * @param type 操作类型表示符
+     * @return Operation对象
      */
     public static Operation createOperate(String type) {
         Operation operation;

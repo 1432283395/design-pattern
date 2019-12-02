@@ -4,7 +4,7 @@ package pers.yaobo.designpattern.simplefactory;
  * @author yaobo
  * @version 1.0
  * @date 2019/11/3 23:34
- * @description Parent class of operation
+ * @description 操作基类
  */
 public class Operation {
     private double number1 = 0;

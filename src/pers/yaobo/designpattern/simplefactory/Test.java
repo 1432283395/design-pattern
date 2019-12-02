@@ -4,7 +4,7 @@ package pers.yaobo.designpattern.simplefactory;
  * @author yaobo
  * @version 1.0
  * @date 2019/11/22 15:08
- * @description Simple factory test class
+ * @description 简单工厂测试类
  */
 public class Test {
     public static void main(String[] args) {

@@ -4,9 +4,9 @@ package pers.yaobo.designpattern.decorator;
  * @author yaobo
  * @version 1.0
  * @date 2019/11/22 15:57
- * @description 装饰模式运行类
+ * @description 装饰模式测试类
  */
-public class Main {
+public class Test {
     public static void main(String[] args) {
         ConcreteComponent component = new ConcreteComponent();
         ConcreteDecorator1 decorator1 = new ConcreteDecorator1();
