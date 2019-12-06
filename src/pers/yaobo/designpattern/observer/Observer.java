@@ -1,4 +1,4 @@
-package pers.yaobo.designpattern.publish;
+package pers.yaobo.designpattern.observer;
 
 /**
  * @author yaobo

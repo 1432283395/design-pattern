@@ -1,4 +1,4 @@
-package pers.yaobo.designpattern.publish;
+package pers.yaobo.designpattern.observer;
 
 import java.util.ArrayList;
 import java.util.List;
