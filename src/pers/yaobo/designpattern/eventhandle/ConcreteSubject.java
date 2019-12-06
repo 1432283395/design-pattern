@@ -4,7 +4,7 @@ package pers.yaobo.designpattern.eventhandle;
  * @author yaobo
  * @version 1.0
  * @date 2019/12/6 11:16
- * @description 具体通知者
+ * @description 具体订阅者
  */
 public class ConcreteSubject extends Subject {
     @Override

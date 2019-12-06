@@ -11,6 +11,7 @@ public class Receiver {
         System.out.println("执行请求！");
     }
 
+
     public static void main(String[] args) {
         Command command = () -> new Receiver().action();
         command.execute();

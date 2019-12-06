@@ -7,7 +7,7 @@ import java.util.List;
  * @author yaobo
  * @version 1.0
  * @date 2019/11/20 8:18
- * @description 具体通知者
+ * @description 具体订阅者
  */
 public class ConcreteSubject implements Subject {
     private List<Observer> observers = new ArrayList<>();
